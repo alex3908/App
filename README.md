@@ -1,21 +1,17 @@
 # Ruby on Rails: upload app
 
 Code Challenge RoR
-
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Clonar el proyecto_
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+
 
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+ruby 2.6.8p205 (2021-07-07 revision 67951) [x64-mingw32]
+Rails 6.1.4.1
 
 ### Instalación 🔧
 
