@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comprador: MyString
+  descripcion: MyString
+  presion: 1.5
+  total: 1
+  direccion: MyString
+  vendedor: MyString
+
+two:
+  comprador: MyString
+  descripcion: MyString
+  presion: 1.5
+  total: 1
+  direccion: MyString
+  vendedor: MyString

@@ -1,0 +1,33 @@
+<%= flash[:notice] %>
+<table>
+    <thead>
+        <tr>
+            <th>Comprador</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+            <th>Total</th>
+            <th>Direccion</th>
+            <th>Vendedor</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% @venta.each do |v| %>
+            <tr>
+                <td><%= v.comprador %></td>
+                <td><%= v.descripcion %></td>
+                <td><%= v.presio %></td>
+                <td><%= v.total %></td>
+                <td><%= v.direccion %></td>
+                <td><%= v.vendedor %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
+
+<div>
+<h4>Import that data!</h4>
+<%= form_tag import_ventas_path, multipart: true do %>
+        <%= file_field_tag :file %>
+        <%= submit_tag "import" %>
+    <% end %>
+</div>
