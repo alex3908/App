@@ -8,7 +8,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 Clonar el proyecto.
 Lo puedes hacer directamente descargando el archivo comprimido en el partado code/download ZIP o bien clonarlo desde la terminal de git con el siguiente comando:
-"git clone https://github.com/alex3908/App.git"
+"git clone https://github.com/alex3908/App"
 
 ### Pre-requisitos 📋
  1.- Instala Ruby desde la pagina oficial https://rubyinstaller.org/
