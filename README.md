@@ -7,8 +7,8 @@ Code Challenge RoR
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Clonar el proyecto.
-Lo puedes hacer directamente descargando el archivo comprimido en el partado code/download zip o bien clonarlo desde la terminal de git con el siguiente comando:
-git clone https://github.com/alex3908/App.git
+Lo puedes hacer directamente descargando el archivo comprimido en el partado code/download ZIP o bien clonarlo desde la terminal de git con el siguiente comando:
+"git clone https://github.com/alex3908/App.git"
 
 ### Pre-requisitos 📋
  1.- Instala Ruby desde la pagina oficial https://rubyinstaller.org/
