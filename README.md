@@ -25,14 +25,7 @@ _Una vez realizadas las instalaciones necesarias y que hayas clonado el proyecto
 _Configuracion de conexion a la base de datos_
  1.- Dirigete al archivo database.yml que se encuentra dentro de la carpeta config.
  2.- En ese archivo podras editar los datos correspondientes a la conexion de base de datos mysql (Asegurate de crear la base de datos y asignar a un usuario para la conexion)
-  
-  default: &default
-  adapter: mysql2
-  encoding: utf8mb4
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: root
-  password: 
-  host: localhost
+ 
 3.- Posteriormente dirigete a la carpeta del proyecto desde tu terminal y ejecuta el siguiente comando "bundle install". Esto descargara una serie de gem que son utiles.
 
  
