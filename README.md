@@ -7,6 +7,7 @@ Code Challenge RoR
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Clonar el proyecto.
+Lo puedes hacer directamente descargando el archivo comprimido en el partado code o bien clonarlo desde la terminal de git.
 https://github.com/alex3908/App.git
 
 ### Pre-requisitos 📋
