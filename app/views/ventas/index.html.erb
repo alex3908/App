@@ -11,7 +11,7 @@
 
     <body>
         <div class="container mt-5">
-            <table class="table">
+            <table class="table text-center">
                 <thead>
                     <tr>
                         <th>Comprador</th>
@@ -32,7 +32,7 @@
                                 <%= v.descripcion %>
                             </td>
                             <td>
-                                <%= v.presion %>
+                                <%= v.precio %>
                             </td>
                             <td>
                                 <%= v.total %>
@@ -48,12 +48,14 @@
                 </tbody>
             </table>
 
-            <div>
-                <h4>Import data</h4>
-                <%= form_tag import_ventas_path, multipart: true do %>
-                    <%= file_field_tag :file %>
-                        <%= submit_tag "import" %>
-                            <% end %>
+            <div class="row">
+                <div class="col">
+                    <h4>Import data</h4>
+                        <%= form_tag import_ventas_path, multipart: true do %>
+                            <%= file_field_tag :file %>        
+                                <%= submit_tag "import" %>
+                        <% end %>
+                </div>
             </div>
         </div>
     </body>
