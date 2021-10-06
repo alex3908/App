@@ -1,33 +1,62 @@
 <%= flash[:notice] %>
-<table>
-    <thead>
-        <tr>
-            <th>Comprador</th>
-            <th>Descripcion</th>
-            <th>Precio</th>
-            <th>Total</th>
-            <th>Direccion</th>
-            <th>Vendedor</th>
-        </tr>
-    </thead>
-    <tbody>
-    <% @venta.each do |v| %>
-            <tr>
-                <td><%= v.comprador %></td>
-                <td><%= v.descripcion %></td>
-                <td><%= v.presio %></td>
-                <td><%= v.total %></td>
-                <td><%= v.direccion %></td>
-                <td><%= v.vendedor %></td>
-            </tr>
-        <% end %>
-    </tbody>
-</table>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<div>
-<h4>Import that data!</h4>
-<%= form_tag import_ventas_path, multipart: true do %>
-        <%= file_field_tag :file %>
-        <%= submit_tag "import" %>
-    <% end %>
-</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="container mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Comprador</th>
+                        <th>Descripcion</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                        <th>Direccion</th>
+                        <th>Vendedor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% @venta.each do |v| %>
+                        <tr>
+                            <td>
+                                <%= v.comprador %>
+                            </td>
+                            <td>
+                                <%= v.descripcion %>
+                            </td>
+                            <td>
+                                <%= v.presion %>
+                            </td>
+                            <td>
+                                <%= v.total %>
+                            </td>
+                            <td>
+                                <%= v.direccion %>
+                            </td>
+                            <td>
+                                <%= v.vendedor %>
+                            </td>
+                        </tr>
+                        <% end %>
+                </tbody>
+            </table>
+
+            <div>
+                <h4>Import data</h4>
+                <%= form_tag import_ventas_path, multipart: true do %>
+                    <%= file_field_tag :file %>
+                        <%= submit_tag "import" %>
+                            <% end %>
+            </div>
+        </div>
+    </body>
+
+    </html>
+
