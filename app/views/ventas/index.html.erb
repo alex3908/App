@@ -11,7 +11,8 @@
 
     <body>
         <div class="container mt-5">
-            <table class="table text-center">
+        <%= button_to "Logout", destroy_user_session_path, method: :delete %>
+            <table class="table text-center mt-4">
                 <thead>
                     <tr>
                         <th>Comprador</th>
