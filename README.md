@@ -1,24 +1,40 @@
-# README
+# Ruby on Rails: upload app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Code Challenge RoR
 
-Things you may want to cover:
+## Comenzando 🚀
 
-* Ruby version
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-* System dependencies
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-* Configuration
 
-* Database creation
+### Pre-requisitos 📋
 
-* Database initialization
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-* How to run the test suite
+```
+Da un ejemplo
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Instalación 🔧
 
-* Deployment instructions
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-* ...
+_Dí cómo será ese paso_
+
+```
+Da un ejemplo
+```
+
+_Y repite_
+
+```
+hasta finalizar
+```
+
+_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+
+
+---
+⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
